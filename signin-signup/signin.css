@@ -48,18 +48,33 @@ html{
     border-bottom-right-radius: 15px;
     padding-bottom: 0px;
 }
-.option img{
-    height: 40px;
-    width: 40px;
-    border-radius: 40%;
+.fa-google{
+    color: red;
 }
-.googleimg{
-    height: 35px;
-    width: 35px;
+.fa-github{
+    color: black;
 }
-.option img:hover{
-    height: 45px;
-    width: 45px;
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin{
+    background-color: rgb(33, 150, 228);
+    padding: 0px 3px;
+    font-size: 18px;
+    color: white;
+    margin-top: 0px;
+}
+.option i{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.option i:hover{
+    font-size: 30px;
+    margin-top: 0px;
+}
+.fa-linkedin:hover{
+    font-size: 25px;
+    margin-top: 0px;
 }
 .container::after {
     content: "";
